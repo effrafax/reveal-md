@@ -45,10 +45,11 @@
     "try-require": "1.2.1",
     "update-notifier": "5.1.0",
     "yaml-front-matter": "4.1.1",
-    "yargs-parser": "21.1.1"
+    "yargs-parser": "21.1.1",
+    "reveal.js-copycode":"1.0.4"
   },
   "optionalDependencies": {
-    "puppeteer": "1.20.0"
+    "puppeteer": "19.7.5"
   },
   "devDependencies": {
     "bron": "1.1.1",

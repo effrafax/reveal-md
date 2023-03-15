@@ -6,6 +6,7 @@ WORKDIR /app
 
 # First install dependencies
 RUN npm install --production
+RUN cp -r node_modules/reveal.js-copycode/plugin/copycode node_modules/reveal.js/plugin/copycode
 
 # Install app
 COPY . /app
